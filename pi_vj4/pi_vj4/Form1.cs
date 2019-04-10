@@ -25,9 +25,10 @@ namespace pi_vj4
         {
             string novaBaza = boxUnos.Text;
             string noviPar = dnkGenerator.OdrediPar(novaBaza);
-            Nukleobaza novaKlasaBaze = new Nukleobaza();
-            novaKlasaBaze.Baza = novaBaza;
-            novaKlasaBaze.Par = noviPar;
+            Nukleobaza novaKlasaBaze = new Nukleobaza() {
+                Baza = novaBaza,
+                Par = noviPar
+            };
             listaBaza.Add(novaKlasaBaze);
             listBoxDNK.Refresh();
         }
