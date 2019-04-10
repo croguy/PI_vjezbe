@@ -42,7 +42,7 @@
             "C",
             "T",
             "G"});
-            this.boxUnos.Location = new System.Drawing.Point(372, 45);
+            this.boxUnos.Location = new System.Drawing.Point(194, 47);
             this.boxUnos.Name = "boxUnos";
             this.boxUnos.Size = new System.Drawing.Size(121, 21);
             this.boxUnos.TabIndex = 1;
@@ -50,7 +50,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(369, 12);
+            this.label1.Location = new System.Drawing.Point(191, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(124, 13);
             this.label1.TabIndex = 2;
@@ -58,7 +58,7 @@
             // 
             // gumbUnos
             // 
-            this.gumbUnos.Location = new System.Drawing.Point(372, 111);
+            this.gumbUnos.Location = new System.Drawing.Point(194, 113);
             this.gumbUnos.Name = "gumbUnos";
             this.gumbUnos.Size = new System.Drawing.Size(121, 56);
             this.gumbUnos.TabIndex = 3;
@@ -71,14 +71,14 @@
             this.listBoxDNK.FormattingEnabled = true;
             this.listBoxDNK.Location = new System.Drawing.Point(13, 13);
             this.listBoxDNK.Name = "listBoxDNK";
-            this.listBoxDNK.Size = new System.Drawing.Size(341, 407);
+            this.listBoxDNK.Size = new System.Drawing.Size(159, 407);
             this.listBoxDNK.TabIndex = 4;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(550, 446);
+            this.ClientSize = new System.Drawing.Size(338, 446);
             this.Controls.Add(this.listBoxDNK);
             this.Controls.Add(this.gumbUnos);
             this.Controls.Add(this.label1);
