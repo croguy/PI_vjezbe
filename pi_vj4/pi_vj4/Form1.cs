@@ -14,9 +14,11 @@ namespace pi_vj4
     {
         BindingList<Nukleobaza> listaBaza = new BindingList<Nukleobaza>();
         Nukleobaza dnkGenerator = new Nukleobaza();
+
         public Form1()
         {
             InitializeComponent();
+            listBoxDNK.DataSource = listaBaza;
         }
 
         private void gumbUnos_Click(object sender, EventArgs e)
@@ -27,8 +29,7 @@ namespace pi_vj4
             novaKlasaBaze.Baza = novaBaza;
             novaKlasaBaze.Par = noviPar;
             listaBaza.Add(novaKlasaBaze);
-            listBoxDNK.DataSource = null;
-            listBoxDNK.DataSource = listaBaza;
+            listBoxDNK.Refresh();
         }
     }
 }
